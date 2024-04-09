@@ -179,7 +179,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - prepare_release
-      - build_windows_streamer
+    #  - build_windows_streamer
       - build_android_client
     steps:
       - uses: eregon/publish-release@v1
